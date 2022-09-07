@@ -10,9 +10,10 @@
     "storybook": "start-storybook -p 7007",
     "build-storybook": "build-storybook",
     "prestorybook": "rnstl",
-    "build-static-webapp": "expo build:web"
+    "build-static-webapp": "npx expo build:web"
   },
   "dependencies": {
+    "@expo/webpack-config": "^0.17.0",
     "expo": "~46.0.9",
     "expo-status-bar": "~1.4.0",
     "react": "18.0.0",
